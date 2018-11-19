@@ -15,4 +15,4 @@ screen.key(['escape', 'q', 'C-c'], function (ch, key) {
   return process.exit(0)
 })
 
-render(<ShowBlessed />, screen)
+render(<DemoProvider><ShowBlessed /></DemoProvider>, screen)
